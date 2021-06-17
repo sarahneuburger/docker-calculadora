@@ -6,7 +6,8 @@
 
 **Execução:** 
 - Para executar o projeto é necessário ter a JDK11 instalada, conforme configurações do arquivo Dockerfile;
-- Para que ocorra o "run" do projeto, executar o comando: `docker run -i -t sarahnbrito/calculadora` (as ações "-i e -t" são requeridas para que a classe Scanner do Java seja interpretada e haja a interação via console).
+- Para que ocorra o "run" do projeto, executar o comando: `docker run -i -t sarahnbrito/calculadora` (as ações "-i e -t" são requeridas para que a classe Scanner do Java seja interpretada e haja a interação via console);
+- *Observação:* O arquivo Java da Calculadora utilizado na imagem foi criado diretamente no *container* via comando "vi Calculadora.java", adicionando o código fonte presente neste repositório.
 
 **Dockerfile:**
 <br>Seguem dados do arquivo Dockerfile, resposável com as configurações utilizadas para construir o container:
