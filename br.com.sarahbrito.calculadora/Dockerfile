@@ -1,5 +1,5 @@
 FROM openjdk:11
-COPY ./src/main/java/br/com/sarahbrito/calculadora/baseCalculadora /app/
+COPY Calculadora.java /app/
 WORKDIR /app
 RUN javac Calculadora.java
 ENTRYPOINT ["java", "Calculadora"]
