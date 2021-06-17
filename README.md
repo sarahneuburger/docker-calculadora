@@ -2,7 +2,7 @@
 
 **Objetivo:**
 <br>O programa engloba uma calculadora que realiza as operações simples matemáticas, sendo: adição, subtração, multiplicação e divisão.
-<br>Este repositório, possui o código fonte da Calculadora utilizado para a criação da imagem Docker disponível em: sarahnbrito/calculadora. Consta no mesmo também, o arquivo de configuração Dockerfile, na pasta raiz e descrito nas seções abaixo.
+<br>Este repositório, possui o código fonte da Calculadora utilizado para a criação da imagem Docker disponível em: sarahnbrito/calculadora | https://hub.docker.com/r/sarahnbrito/calculadora. Consta no mesmo também, o arquivo de configuração Dockerfile, na pasta raiz e descrito nas seções abaixo.
 
 **Execução:** 
 - Para executar o projeto é necessário ter a JDK11 instalada, conforme configurações do arquivo Dockerfile;
